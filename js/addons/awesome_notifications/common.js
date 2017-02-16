@@ -1,3 +1,32 @@
+function fn_awesome_notifications_preview(clickedElement)
+{
+    var $clickedElement = $(clickedElement);
+    var $form = $clickedElement.closest('form');
+    var easeIn = $form.find(':input[id*="ease_in"]').val();
+    var easeOut = $form.find(':input[id*="ease_out"]').val();
+
+    var params = {
+        'dismissQueue': true,
+        'maxVisible': 1,
+        'killer': true,
+        'timeout': 1000,
+        'animation': {
+            'open': 'animated ' + easeIn,
+            'close': 'animated ' + easeOut, // Animate.css class names
+            'easing': 'swing', // unavailable - no need
+            'speed': 200 // unavailable - no need
+        }
+    };
+
+    $.ceNotification('show', {
+        type: 'W',
+        title: "Warning",
+        message: "Work so hard, reminiscin' bout the old days",
+        message_state: 'I'
+    }, null, params);
+
+
+}
 (function(_, $) {
 
     /*
@@ -10,6 +39,14 @@
         var container;
         var timers = {};
         var delay = 0;
+        var globalParams = {
+            'animation': {
+                'open': 'animated bounceInRight', // Animate.css class names
+                'close': 'animated bounceOutRight', // Animate.css class names
+                'easing': 'swing', // unavailable - no need
+                'speed': 200 // unavailable - no need
+            }
+        };
 
         function _duplicateNotification(key)
         {
@@ -91,10 +128,11 @@
         }
 
         var methods = {
-            show: function (data, key)
+            show: function (data, key, params)
             {
-                console.log('custom show()', data, key);
-
+                if (!params) {
+                    params = {};
+                }
                 if (!key) {
                     key = $.crc32(data.message);
                 }
@@ -159,7 +197,7 @@
                     }
 
 
-                    var timeout = false;
+                    var timeout = params.timeout || false;
                     if (data.message_state == 'I') {
                         n_class += ' cm-auto-hide';
                         timeout = delay;
@@ -171,23 +209,21 @@
 
 
 
+                    console.log('params', params);
+                    console.log('globalParams', globalParams);
 
-                    var notificationObject = container.noty({
+                    params = $.extend({
                         'text': data.message,
                         'type': type,
                         'progressBar': true,
                         'theme': 'metroui',
                         'timeout': timeout,
                         'force': true,
-                        'animation': {
-                            'open': 'animated bounceInRight', // Animate.css class names
-                            'close': 'animated bounceOutRight', // Animate.css class names
-                            'easing': 'swing', // unavailable - no need
-                            'speed': 200 // unavailable - no need
-                        }
-                    });
+                    }, globalParams, params);
 
-                    // console.log(notification);
+
+                    var notificationObject = container.noty(params);
+
                     // notification.data('caNotificationKey', key);
 
 
@@ -251,9 +287,14 @@
                 delay = _.notice_displaying_time * 1000;
                 container = $('.cm-notification-container');
 
-                $(_.doc).on('click', '.cm-notification-close', function() {
+                globalParams = $.extend(
+                    globalParams,
+                    (awesomeNotificationsConfig || {})
+                );
+
+                $(_.doc).on('click', '.cm-notification-close', function () {
                     methods.close($(this).parents('.cm-notification-content:first'), false);
-                })
+                });
 
                 container.find('.cm-auto-hide').each(function() {
                     methods.close($(this), true);
@@ -279,41 +320,6 @@
         if (typeof(awesomeNotifications) != 'undefined') {
             $.ceNotification('showMany', awesomeNotifications);
         }
-        // (some of) your code goes here
-/*
-
-        $.ceNotification('show', {
-            type: 'N',
-            title: "Notice",
-            message: "Suck a cock. Just for a few seconds.",
-            message_state: 'I'
-        });
-        $.ceNotification('show', {
-            type: 'N',
-            title: "Notice",
-            message: "Suck a cock, forever.",
-            message_state: 'K'
-        });
-        $.ceNotification('show', {
-            type: 'S',
-            title: "Info",
-            message: "You may suck a cock. Why not, right?",
-            message_state: 'I'
-        });
-        $.ceNotification('show', {
-            type: 'W',
-            title: "Warning",
-            message: "You cannot not suck a cock!",
-            message_state: 'I'
-        });
-        $.ceNotification('show', {
-            type: 'E',
-            title: "Error",
-            message: "You cannot not suck a cock!",
-            message_state: 'I'
-        });
-*/
-
     });
 
 }(Tygh, Tygh.$));

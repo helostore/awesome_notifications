@@ -12,6 +12,644 @@ msgctxt "Addons::description::awesome_notifications"
 msgid "Replace CS-Cart's default dull notifications with these awesome notifications"
 msgstr "Replace CS-Cart's default dull notifications with these awesome notifications"
 
+msgctxt "SettingsSections::awesome_notifications::settings"
+msgid ""
+msgstr "Settings"
+
+msgctxt "SettingsOptions::awesome_notifications::header_use"
+msgid ""
+msgstr "General"
+
+msgctxt "SettingsOptions::awesome_notifications::use_in_frontend"
+msgid ""
+msgstr "Enable in customer area"
+
+msgctxt "SettingsOptions::awesome_notifications::use_in_backend"
+msgid ""
+msgstr "Enable in administration area"
+
+msgctxt "SettingsOptions::awesome_notifications::ease_in"
+msgid ""
+msgstr "Entrance effect"
+
+msgctxt "SettingsOptions::awesome_notifications::ease_out"
+msgid ""
+msgstr "Exit effect"
+
 msgctxt "Languages::awesome_notifications.sample_lang_var"
 msgid "Sample translation entry for awesome_notifications"
 msgstr "Sample translation entry for awesome_notifications"
+
+
+
+
+
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::bounce"
+msgid ""
+msgstr "Attention Seekers : bounce"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::flash"
+msgid ""
+msgstr "Attention Seekers : flash"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::pulse"
+msgid ""
+msgstr "Attention Seekers : pulse"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::rubberBand"
+msgid ""
+msgstr "Attention Seekers : rubberBand"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::shake"
+msgid ""
+msgstr "Attention Seekers : shake"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::swing"
+msgid ""
+msgstr "Attention Seekers : swing"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::tada"
+msgid ""
+msgstr "Attention Seekers : tada"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::wobble"
+msgid ""
+msgstr "Attention Seekers : wobble"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::jello"
+msgid ""
+msgstr "Attention Seekers : jello"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::bounceIn"
+msgid ""
+msgstr "Bouncing Entrances : bounceIn"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::bounceInDown"
+msgid ""
+msgstr "Bouncing Entrances : bounceInDown"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::bounceInLeft"
+msgid ""
+msgstr "Bouncing Entrances : bounceInLeft"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::bounceInRight"
+msgid ""
+msgstr "Bouncing Entrances : bounceInRight"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::bounceInUp"
+msgid ""
+msgstr "Bouncing Entrances : bounceInUp"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::bounceOut"
+msgid ""
+msgstr "Bouncing Exits : bounceOut"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::bounceOutDown"
+msgid ""
+msgstr "Bouncing Exits : bounceOutDown"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::bounceOutLeft"
+msgid ""
+msgstr "Bouncing Exits : bounceOutLeft"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::bounceOutRight"
+msgid ""
+msgstr "Bouncing Exits : bounceOutRight"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::bounceOutUp"
+msgid ""
+msgstr "Bouncing Exits : bounceOutUp"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::fadeIn"
+msgid ""
+msgstr "Fading Entrances : fadeIn"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::fadeInDown"
+msgid ""
+msgstr "Fading Entrances : fadeInDown"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::fadeInDownBig"
+msgid ""
+msgstr "Fading Entrances : fadeInDownBig"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::fadeInLeft"
+msgid ""
+msgstr "Fading Entrances : fadeInLeft"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::fadeInLeftBig"
+msgid ""
+msgstr "Fading Entrances : fadeInLeftBig"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::fadeInRight"
+msgid ""
+msgstr "Fading Entrances : fadeInRight"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::fadeInRightBig"
+msgid ""
+msgstr "Fading Entrances : fadeInRightBig"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::fadeInUp"
+msgid ""
+msgstr "Fading Entrances : fadeInUp"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::fadeInUpBig"
+msgid ""
+msgstr "Fading Entrances : fadeInUpBig"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::fadeOut"
+msgid ""
+msgstr "Fading Exits : fadeOut"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::fadeOutDown"
+msgid ""
+msgstr "Fading Exits : fadeOutDown"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::fadeOutDownBig"
+msgid ""
+msgstr "Fading Exits : fadeOutDownBig"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::fadeOutLeft"
+msgid ""
+msgstr "Fading Exits : fadeOutLeft"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::fadeOutLeftBig"
+msgid ""
+msgstr "Fading Exits : fadeOutLeftBig"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::fadeOutRight"
+msgid ""
+msgstr "Fading Exits : fadeOutRight"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::fadeOutRightBig"
+msgid ""
+msgstr "Fading Exits : fadeOutRightBig"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::fadeOutUp"
+msgid ""
+msgstr "Fading Exits : fadeOutUp"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::fadeOutUpBig"
+msgid ""
+msgstr "Fading Exits : fadeOutUpBig"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::flip"
+msgid ""
+msgstr "Flippers : flip"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::flipInX"
+msgid ""
+msgstr "Flippers : flipInX"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::flipInY"
+msgid ""
+msgstr "Flippers : flipInY"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::flipOutX"
+msgid ""
+msgstr "Flippers : flipOutX"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::flipOutY"
+msgid ""
+msgstr "Flippers : flipOutY"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::lightSpeedIn"
+msgid ""
+msgstr "Lightspeed : lightSpeedIn"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::lightSpeedOut"
+msgid ""
+msgstr "Lightspeed : lightSpeedOut"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::rotateIn"
+msgid ""
+msgstr "Rotating Entrances : rotateIn"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::rotateInDownLeft"
+msgid ""
+msgstr "Rotating Entrances : rotateInDownLeft"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::rotateInDownRight"
+msgid ""
+msgstr "Rotating Entrances : rotateInDownRight"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::rotateInUpLeft"
+msgid ""
+msgstr "Rotating Entrances : rotateInUpLeft"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::rotateInUpRight"
+msgid ""
+msgstr "Rotating Entrances : rotateInUpRight"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::rotateOut"
+msgid ""
+msgstr "Rotating Exits : rotateOut"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::rotateOutDownLeft"
+msgid ""
+msgstr "Rotating Exits : rotateOutDownLeft"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::rotateOutDownRight"
+msgid ""
+msgstr "Rotating Exits : rotateOutDownRight"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::rotateOutUpLeft"
+msgid ""
+msgstr "Rotating Exits : rotateOutUpLeft"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::rotateOutUpRight"
+msgid ""
+msgstr "Rotating Exits : rotateOutUpRight"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::slideInUp"
+msgid ""
+msgstr "Sliding Entrances : slideInUp"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::slideInDown"
+msgid ""
+msgstr "Sliding Entrances : slideInDown"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::slideInLeft"
+msgid ""
+msgstr "Sliding Entrances : slideInLeft"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::slideInRight"
+msgid ""
+msgstr "Sliding Entrances : slideInRight"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::slideOutUp"
+msgid ""
+msgstr "Sliding Exits : slideOutUp"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::slideOutDown"
+msgid ""
+msgstr "Sliding Exits : slideOutDown"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::slideOutLeft"
+msgid ""
+msgstr "Sliding Exits : slideOutLeft"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::slideOutRight"
+msgid ""
+msgstr "Sliding Exits : slideOutRight"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::zoomIn"
+msgid ""
+msgstr "Zoom Entrances : zoomIn"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::zoomInDown"
+msgid ""
+msgstr "Zoom Entrances : zoomInDown"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::zoomInLeft"
+msgid ""
+msgstr "Zoom Entrances : zoomInLeft"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::zoomInRight"
+msgid ""
+msgstr "Zoom Entrances : zoomInRight"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::zoomInUp"
+msgid ""
+msgstr "Zoom Entrances : zoomInUp"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::zoomOut"
+msgid ""
+msgstr "Zoom Exits : zoomOut"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::zoomOutDown"
+msgid ""
+msgstr "Zoom Exits : zoomOutDown"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::zoomOutLeft"
+msgid ""
+msgstr "Zoom Exits : zoomOutLeft"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::zoomOutRight"
+msgid ""
+msgstr "Zoom Exits : zoomOutRight"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::zoomOutUp"
+msgid ""
+msgstr "Zoom Exits : zoomOutUp"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::hinge"
+msgid ""
+msgstr "Specials : hinge"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::rollIn"
+msgid ""
+msgstr "Specials : rollIn"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_in::rollOut"
+msgid ""
+msgstr "Specials : rollOut"
+
+
+
+
+
+
+
+
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::bounce"
+msgid ""
+msgstr "Attention Seekers : bounce"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::flash"
+msgid ""
+msgstr "Attention Seekers : flash"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::pulse"
+msgid ""
+msgstr "Attention Seekers : pulse"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::rubberBand"
+msgid ""
+msgstr "Attention Seekers : rubberBand"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::shake"
+msgid ""
+msgstr "Attention Seekers : shake"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::swing"
+msgid ""
+msgstr "Attention Seekers : swing"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::tada"
+msgid ""
+msgstr "Attention Seekers : tada"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::wobble"
+msgid ""
+msgstr "Attention Seekers : wobble"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::jello"
+msgid ""
+msgstr "Attention Seekers : jello"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::bounceIn"
+msgid ""
+msgstr "Bouncing Entrances : bounceIn"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::bounceInDown"
+msgid ""
+msgstr "Bouncing Entrances : bounceInDown"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::bounceInLeft"
+msgid ""
+msgstr "Bouncing Entrances : bounceInLeft"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::bounceInRight"
+msgid ""
+msgstr "Bouncing Entrances : bounceInRight"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::bounceInUp"
+msgid ""
+msgstr "Bouncing Entrances : bounceInUp"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::bounceOut"
+msgid ""
+msgstr "Bouncing Exits : bounceOut"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::bounceOutDown"
+msgid ""
+msgstr "Bouncing Exits : bounceOutDown"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::bounceOutLeft"
+msgid ""
+msgstr "Bouncing Exits : bounceOutLeft"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::bounceOutRight"
+msgid ""
+msgstr "Bouncing Exits : bounceOutRight"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::bounceOutUp"
+msgid ""
+msgstr "Bouncing Exits : bounceOutUp"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::fadeIn"
+msgid ""
+msgstr "Fading Entrances : fadeIn"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::fadeInDown"
+msgid ""
+msgstr "Fading Entrances : fadeInDown"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::fadeInDownBig"
+msgid ""
+msgstr "Fading Entrances : fadeInDownBig"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::fadeInLeft"
+msgid ""
+msgstr "Fading Entrances : fadeInLeft"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::fadeInLeftBig"
+msgid ""
+msgstr "Fading Entrances : fadeInLeftBig"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::fadeInRight"
+msgid ""
+msgstr "Fading Entrances : fadeInRight"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::fadeInRightBig"
+msgid ""
+msgstr "Fading Entrances : fadeInRightBig"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::fadeInUp"
+msgid ""
+msgstr "Fading Entrances : fadeInUp"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::fadeInUpBig"
+msgid ""
+msgstr "Fading Entrances : fadeInUpBig"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::fadeOut"
+msgid ""
+msgstr "Fading Exits : fadeOut"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::fadeOutDown"
+msgid ""
+msgstr "Fading Exits : fadeOutDown"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::fadeOutDownBig"
+msgid ""
+msgstr "Fading Exits : fadeOutDownBig"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::fadeOutLeft"
+msgid ""
+msgstr "Fading Exits : fadeOutLeft"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::fadeOutLeftBig"
+msgid ""
+msgstr "Fading Exits : fadeOutLeftBig"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::fadeOutRight"
+msgid ""
+msgstr "Fading Exits : fadeOutRight"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::fadeOutRightBig"
+msgid ""
+msgstr "Fading Exits : fadeOutRightBig"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::fadeOutUp"
+msgid ""
+msgstr "Fading Exits : fadeOutUp"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::fadeOutUpBig"
+msgid ""
+msgstr "Fading Exits : fadeOutUpBig"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::flip"
+msgid ""
+msgstr "Flippers : flip"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::flipInX"
+msgid ""
+msgstr "Flippers : flipInX"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::flipInY"
+msgid ""
+msgstr "Flippers : flipInY"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::flipOutX"
+msgid ""
+msgstr "Flippers : flipOutX"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::flipOutY"
+msgid ""
+msgstr "Flippers : flipOutY"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::lightSpeedIn"
+msgid ""
+msgstr "Lightspeed : lightSpeedIn"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::lightSpeedOut"
+msgid ""
+msgstr "Lightspeed : lightSpeedOut"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::rotateIn"
+msgid ""
+msgstr "Rotating Entrances : rotateIn"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::rotateInDownLeft"
+msgid ""
+msgstr "Rotating Entrances : rotateInDownLeft"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::rotateInDownRight"
+msgid ""
+msgstr "Rotating Entrances : rotateInDownRight"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::rotateInUpLeft"
+msgid ""
+msgstr "Rotating Entrances : rotateInUpLeft"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::rotateInUpRight"
+msgid ""
+msgstr "Rotating Entrances : rotateInUpRight"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::rotateOut"
+msgid ""
+msgstr "Rotating Exits : rotateOut"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::rotateOutDownLeft"
+msgid ""
+msgstr "Rotating Exits : rotateOutDownLeft"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::rotateOutDownRight"
+msgid ""
+msgstr "Rotating Exits : rotateOutDownRight"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::rotateOutUpLeft"
+msgid ""
+msgstr "Rotating Exits : rotateOutUpLeft"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::rotateOutUpRight"
+msgid ""
+msgstr "Rotating Exits : rotateOutUpRight"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::slideInUp"
+msgid ""
+msgstr "Sliding Entrances : slideInUp"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::slideInDown"
+msgid ""
+msgstr "Sliding Entrances : slideInDown"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::slideInLeft"
+msgid ""
+msgstr "Sliding Entrances : slideInLeft"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::slideInRight"
+msgid ""
+msgstr "Sliding Entrances : slideInRight"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::slideOutUp"
+msgid ""
+msgstr "Sliding Exits : slideOutUp"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::slideOutDown"
+msgid ""
+msgstr "Sliding Exits : slideOutDown"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::slideOutLeft"
+msgid ""
+msgstr "Sliding Exits : slideOutLeft"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::slideOutRight"
+msgid ""
+msgstr "Sliding Exits : slideOutRight"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::zoomIn"
+msgid ""
+msgstr "Zoom Entrances : zoomIn"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::zoomInDown"
+msgid ""
+msgstr "Zoom Entrances : zoomInDown"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::zoomInLeft"
+msgid ""
+msgstr "Zoom Entrances : zoomInLeft"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::zoomInRight"
+msgid ""
+msgstr "Zoom Entrances : zoomInRight"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::zoomInUp"
+msgid ""
+msgstr "Zoom Entrances : zoomInUp"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::zoomOut"
+msgid ""
+msgstr "Zoom Exits : zoomOut"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::zoomOutDown"
+msgid ""
+msgstr "Zoom Exits : zoomOutDown"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::zoomOutLeft"
+msgid ""
+msgstr "Zoom Exits : zoomOutLeft"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::zoomOutRight"
+msgid ""
+msgstr "Zoom Exits : zoomOutRight"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::zoomOutUp"
+msgid ""
+msgstr "Zoom Exits : zoomOutUp"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::hinge"
+msgid ""
+msgstr "Specials : hinge"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::rollIn"
+msgid ""
+msgstr "Specials : rollIn"
+
+msgctxt "SettingsVariants::awesome_notifications::ease_out::rollOut"
+msgid ""
+msgstr "Specials : rollOut"
+

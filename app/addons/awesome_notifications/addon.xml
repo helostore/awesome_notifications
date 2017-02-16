@@ -18,8 +18,7 @@
     </authors>
     <settings layout="separate" edition_type="ROOT,ULT:VENDOR">
         <sections>
-            <section id="product_details">
-                <name>Product page</name>
+            <section id="settings">
                 <items>
                     <item id="header_use">
                         <type>header</type>
@@ -32,6 +31,118 @@
                         <type>checkbox</type>
                         <default_value>Y</default_value>
                     </item>
+
+                    <item id="ease_in">
+                        <type>selectbox</type>
+                        <default_value>bounceInRight</default_value>
+                        <variants>
+                            <item id="bounce">Attention Seekers : bounce</item>
+                            <item id="flash">Attention Seekers : flash</item>
+                            <item id="pulse">Attention Seekers : pulse</item>
+                            <item id="rubberBand">Attention Seekers : rubberBand</item>
+                            <item id="shake">Attention Seekers : shake</item>
+                            <item id="swing">Attention Seekers : swing</item>
+                            <item id="tada">Attention Seekers : tada</item>
+                            <item id="wobble">Attention Seekers : wobble</item>
+                            <item id="jello">Attention Seekers : jello</item>
+
+                            <item id="bounceIn">Bouncing Entrances : bounceIn</item>
+                            <item id="bounceInDown">Bouncing Entrances : bounceInDown</item>
+                            <item id="bounceInLeft">Bouncing Entrances : bounceInLeft</item>
+                            <item id="bounceInRight">Bouncing Entrances : bounceInRight</item>
+                            <item id="bounceInUp">Bouncing Entrances : bounceInUp</item>
+
+                            <item id="fadeIn">Fading Entrances : fadeIn</item>
+                            <item id="fadeInDown">Fading Entrances : fadeInDown</item>
+                            <item id="fadeInDownBig">Fading Entrances : fadeInDownBig</item>
+                            <item id="fadeInLeft">Fading Entrances : fadeInLeft</item>
+                            <item id="fadeInLeftBig">Fading Entrances : fadeInLeftBig</item>
+                            <item id="fadeInRight">Fading Entrances : fadeInRight</item>
+                            <item id="fadeInRightBig">Fading Entrances : fadeInRightBig</item>
+                            <item id="fadeInUp">Fading Entrances : fadeInUp</item>
+                            <item id="fadeInUpBig">Fading Entrances : fadeInUpBig</item>
+
+                            <item id="flip">Flippers : flip</item>
+                            <item id="flipInX">Flippers : flipInX</item>
+                            <item id="flipInY">Flippers : flipInY</item>
+
+                            <item id="lightSpeedIn">Lightspeed : lightSpeedIn</item>
+
+                            <item id="rotateIn">Rotating Entrances : rotateIn</item>
+                            <item id="rotateInDownLeft">Rotating Entrances : rotateInDownLeft</item>
+                            <item id="rotateInDownRight">Rotating Entrances : rotateInDownRight</item>
+                            <item id="rotateInUpLeft">Rotating Entrances : rotateInUpLeft</item>
+                            <item id="rotateInUpRight">Rotating Entrances : rotateInUpRight</item>
+
+                            <item id="slideInUp">Sliding Entrances : slideInUp</item>
+                            <item id="slideInDown">Sliding Entrances : slideInDown</item>
+                            <item id="slideInLeft">Sliding Entrances : slideInLeft</item>
+                            <item id="slideInRight">Sliding Entrances : slideInRight</item>
+
+                            <item id="zoomIn">Zoom Entrances : zoomIn</item>
+                            <item id="zoomInDown">Zoom Entrances : zoomInDown</item>
+                            <item id="zoomInLeft">Zoom Entrances : zoomInLeft</item>
+                            <item id="zoomInRight">Zoom Entrances : zoomInRight</item>
+                            <item id="zoomInUp">Zoom Entrances : zoomInUp</item>
+
+                            <item id="rollIn">Specials : rollIn</item>
+
+                        </variants>
+                    </item>
+
+
+                    <item id="ease_out">
+                        <type>selectbox</type>
+                        <default_value>bounceOutRight</default_value>
+                        <variants>
+                            <item id="bounceOut">Bouncing Exits : bounceOut</item>
+                            <item id="bounceOutDown">Bouncing Exits : bounceOutDown</item>
+                            <item id="bounceOutLeft">Bouncing Exits : bounceOutLeft</item>
+                            <item id="bounceOutRight">Bouncing Exits : bounceOutRight</item>
+                            <item id="bounceOutUp">Bouncing Exits : bounceOutUp</item>
+
+                            <item id="fadeOut">Fading Exits : fadeOut</item>
+                            <item id="fadeOutDown">Fading Exits : fadeOutDown</item>
+                            <item id="fadeOutDownBig">Fading Exits : fadeOutDownBig</item>
+                            <item id="fadeOutLeft">Fading Exits : fadeOutLeft</item>
+                            <item id="fadeOutLeftBig">Fading Exits : fadeOutLeftBig</item>
+                            <item id="fadeOutRight">Fading Exits : fadeOutRight</item>
+                            <item id="fadeOutRightBig">Fading Exits : fadeOutRightBig</item>
+                            <item id="fadeOutUp">Fading Exits : fadeOutUp</item>
+                            <item id="fadeOutUpBig">Fading Exits : fadeOutUpBig</item>
+
+                            <item id="flipOutX">Flippers : flipOutX</item>
+                            <item id="flipOutY">Flippers : flipOutY</item>
+
+                            <item id="lightSpeedOut">Lightspeed : lightSpeedOut</item>
+
+                            <item id="rotateOut">Rotating Exits : rotateOut</item>
+                            <item id="rotateOutDownLeft">Rotating Exits : rotateOutDownLeft</item>
+                            <item id="rotateOutDownRight">Rotating Exits : rotateOutDownRight</item>
+                            <item id="rotateOutUpLeft">Rotating Exits : rotateOutUpLeft</item>
+                            <item id="rotateOutUpRight">Rotating Exits : rotateOutUpRight</item>
+
+                            <item id="slideOutUp">Sliding Exits : slideOutUp</item>
+                            <item id="slideOutDown">Sliding Exits : slideOutDown</item>
+                            <item id="slideOutLeft">Sliding Exits : slideOutLeft</item>
+                            <item id="slideOutRight">Sliding Exits : slideOutRight</item>
+
+                            <item id="zoomOut">Zoom Exits : zoomOut</item>
+                            <item id="zoomOutDown">Zoom Exits : zoomOutDown</item>
+                            <item id="zoomOutLeft">Zoom Exits : zoomOutLeft</item>
+                            <item id="zoomOutRight">Zoom Exits : zoomOutRight</item>
+                            <item id="zoomOutUp">Zoom Exits : zoomOutUp</item>
+
+                            <item id="hinge">Specials : hinge</item>
+                            <item id="rollOut">Specials : rollOut</item>
+
+                        </variants>
+                    </item>
+                    <item id="preview">
+                        <type>info</type>
+                        <handler>fn_awesome_notifications_settings_preview</handler>
+                    </item>
+
 
                 </items>
             </section>
