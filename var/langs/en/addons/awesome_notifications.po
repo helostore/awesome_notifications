@@ -1,0 +1,17 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::awesome_notifications"
+msgid "Awesome Notifications"
+msgstr "Awesome Notifications"
+
+msgctxt "Addons::description::awesome_notifications"
+msgid "Replace CS-Cart's default dull notifications with these awesome notifications"
+msgstr "Replace CS-Cart's default dull notifications with these awesome notifications"
+
+msgctxt "Languages::awesome_notifications.sample_lang_var"
+msgid "Sample translation entry for awesome_notifications"
+msgstr "Sample translation entry for awesome_notifications"

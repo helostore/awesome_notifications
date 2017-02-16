@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>awesome_notifications</id>
+    <version>0.0.1</version>
+    <name>Awesome Notifications</name>
+    <description>Replace CS-Cart's default dull notifications with these awesome notifications</description>
+    <priority>1010112</priority>
+    <position>0</position>
+    <status>active</status>
+    <has_icon>Y</has_icon>
+    <default_language>en</default_language>
+    <authors>
+        <author>
+            <name>HELOstore</name>
+            <email>support@helostore.com</email>
+            <url>https://helostore.com/</url>
+        </author>
+    </authors>
+    <settings layout="separate" edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="product_details">
+                <name>Product page</name>
+                <items>
+                    <item id="header_use">
+                        <type>header</type>
+                    </item>
+                    <item id="use_in_frontend">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+                    <item id="use_in_backend">
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                    </item>
+
+                </items>
+            </section>
+            <section id="license">
+                <name>License</name>
+                <items>
+                    <item id="email">
+                        <type>input</type>
+                    </item>
+                    <item id="password">
+                        <type>password</type>
+                    </item>
+                    <item id="license">
+                        <type>input</type>
+                    </item>
+                    <item id="info">
+                        <type>info</type>
+                        <handler>fn_sidekick_info,awesome_notifications</handler>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+</addon>
