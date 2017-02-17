@@ -1,0 +1,14 @@
+[
+    {
+        "version": "0.0.2",
+        "releaseDate": "2017-02-17 06:33:30",
+        "releaseTimestamp": "1487313210",
+        "hash": "857242794e54c264d295c01f63ad101f26885f28",
+        "commits": [
+            "[2017-02-17] Bumped version to 0.0.2",
+            "[2017-02-17] Added add-on settings and notifications previewer",
+            "[2017-02-17] Added add-on settings and notifications previewer",
+            "[2017-02-16] Added effects as add-on settings"
+        ]
+    }
+]
