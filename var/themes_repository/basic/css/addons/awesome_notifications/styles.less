@@ -12,33 +12,111 @@
   font-style: normal;
 }
 
+[class^="hs-an-icon-"]:before, [class*=" hs-an-icon-"]:before {
+  font-family: "awesomenotifications";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
 .cm-notification-container {
+  .noty_text,
+  .noty_title,
+  .noty_left i,
   .noty_message {
     color: #ffffff;
+  }
+  [class^="hs-an-icon-"]:before, [class*=" hs-an-icon-"]:before {
+    font-size: 3em;
+    vertical-align: bottom;
+    //margin-right: 25px;
+  }
+  .noty_left {
+    display: block;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .noty_right {
+    display: block;
+    vertical-align: top;
+    width: 100%;
+  }
+  .noty_title {
+    font-weight: bold;
+    font-size: 1.4em;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
   }
 }
 
 /* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
+@media only screen and (min-width: 320px) {
 
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
+@media only screen and (min-width: 480px) {
 
 }
 
 /* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
+@media only screen and (min-width: 768px) {
 
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
-
+@media only screen and (min-width: 992px) {
+  .cm-notification-container {
+    [class^="hs-an-icon-"]:before, [class*=" hs-an-icon-"]:before {
+      display: inherit;
+    }
+    .noty_title {
+      text-align: left;
+      display: inline-block;
+    }
+    .noty_right {
+      display: inline-block;
+      width: 80%;
+    }
+    .noty_left {
+      width: 20%;
+      display: inline-block;
+    }
+  }
 }
 
 /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
+@media only screen and (min-width: 1200px) {
 
 }
