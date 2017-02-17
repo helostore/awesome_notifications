@@ -48,11 +48,35 @@
 }
 
 .cm-notification-container {
+  .noty_text,
+  .noty_title,
+  .noty_left i,
   .noty_message {
     color: #ffffff;
   }
   [class^="hs-an-icon-"]:before, [class*=" hs-an-icon-"]:before {
-    font-size: 2em;
+    font-size: 3em;
+    vertical-align: bottom;
+    //margin-right: 25px;
+  }
+  .noty_left {
+    display: block;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .noty_right {
+    display: block;
+    vertical-align: top;
+    width: 100%;
+  }
+  .noty_title {
+    font-weight: bold;
+    font-size: 1.4em;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
   }
 }
 
@@ -73,7 +97,23 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
-
+  .cm-notification-container {
+    [class^="hs-an-icon-"]:before, [class*=" hs-an-icon-"]:before {
+      display: inherit;
+    }
+    .noty_title {
+      text-align: left;
+      display: inline-block;
+    }
+    .noty_right {
+      display: inline-block;
+      width: 80%;
+    }
+    .noty_left {
+      width: 20%;
+      display: inline-block;
+    }
+  }
 }
 
 /* Large Devices, Wide Screens */

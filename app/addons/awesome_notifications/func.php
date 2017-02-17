@@ -18,16 +18,14 @@ if (!defined('BOOTSTRAP')) { die('Access denied'); }
 
 function fn_awesome_notifications_settings_preview()
 {
-
     $html = <<<EOD
 <div id="container_addon_option_awesome_notifications_ease_out" class="control-group setting-wide awesome_notifications ">
     <label class="control-label "></label>
     <div class="controls">
-        <a href="javascript:void(0);" onclick="return (typeof fn_awesome_notifications_preview_all === 'function' ? fn_awesome_notifications_preview_all(this) : false);">Preview</a>
+        <a class="btn btn-secondary" href="javascript:void(0);" onclick="return (typeof fn_awesome_notifications_preview_all === 'function' ? fn_awesome_notifications_preview_all(this) : false);">Preview</a>
     </div>
 </div>
 EOD;
-
 
     return $html;
 };

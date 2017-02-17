@@ -60,6 +60,7 @@ function AwesomeNotificationsPreviewer () {
             // 'maxVisible': 1,
             // 'killer': true,
             'timeout': 3000,
+            // 'timeout': false,
             'animation': {
                 'open': 'animated ' + easeIn,
                 'close': 'animated ' + easeOut, // Animate.css class names
@@ -91,10 +92,26 @@ function AwesomeNotificationsPreviewer () {
             }
         };
 
+        var title = '';
+        var message = "Work so hard, reminiscin' bout the old days";
+        if (type == 'N') {
+            title = "Success";
+            message = "Congratulations for getting rid of those ugly fugly default notifications!";
+        } else if (type == 'W') {
+            title = "Warning";
+            message = "Choose your effects smartly - you don't want to steal too much focus of your customers.";
+        } else if (type == 'S') {
+            title = "Info";
+            message = "Go ahead in choose your entrance/exit effects for your new awesome notifications.";
+        } else {
+            title = "Error";
+            message = "Okay, okay, \"fugly\" is not a real word, but you get it!";
+        }
+
         $.ceNotification('show', {
             type: type || 'W',
-            title: "Preview",
-            message: "Work so hard, reminiscin' bout the old days",
+            title: title || "Preview",
+            message: message,
             message_state: 'I'
         }, null, params);
     };

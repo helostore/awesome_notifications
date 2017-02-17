@@ -157,17 +157,17 @@
                     if (data.type == 'N') {
                         n_class += ' alert-success';
                         type = 'success';
-                        icon = 'hs-an-icon-ok';
+                        // icon = 'hs-an-icon-ok';
                         icon = 'hs-an-icon-ok-circled';
                     } else if (data.type == 'W') {
                         n_class += ' alert-warning';
                         type = 'warning';
-                        icon = 'hs-an-icon-attention-alt';
+                        // icon = 'hs-an-icon-attention-alt';
                         icon = 'hs-an-icon-attention-circled';
                     } else if (data.type == 'S') {
                         n_class += ' alert-info';
                         type = 'information';
-                        icon = 'hs-an-icon-info';
+                        // icon = 'hs-an-icon-info';
                         icon = 'hs-an-icon-info-circled';
                     } else {
                         n_class += ' alert-error';
@@ -189,13 +189,19 @@
                         'progressBar': true,
                         'theme': 'metroui',
                         'timeout': timeout,
+                        // 'timeout': false,
                         'force': true,
                         'template': '' +
-                            '<div class="noty_message">' +
+                        '<div class="noty_message">' +
+                            '<div class="noty_left">' +
                                 '<i class="' + icon + '"></i>' +
-                                '<span class="noty_text"></span>' +
+                            '</div>' +
+                            '<div class="noty_right">' +
+                                (data.title ? '<span class="noty_title">' + data.title + '</span>' : '') +
+                                '<div class="noty_text"></div>' +
                                 '<div class="noty_close"></div>' +
-                            '</div>'
+                            '</div>' +
+                        '</div>'
 
                     };
 
@@ -204,10 +210,6 @@
                     var notificationObject = container.noty(params);
 
                     // notification.data('caNotificationKey', key);
-
-
-
-
 
 
                     // var notification = $('<div class="cm-notification-content notification-content ' + n_class + '" data-ca-notification-key="' + key + '">' +
