@@ -1,32 +1,3 @@
-function fn_awesome_notifications_preview(clickedElement)
-{
-    var $clickedElement = $(clickedElement);
-    var $form = $clickedElement.closest('form');
-    var easeIn = $form.find(':input[id*="ease_in"]').val();
-    var easeOut = $form.find(':input[id*="ease_out"]').val();
-
-    var params = {
-        'dismissQueue': true,
-        'maxVisible': 1,
-        'killer': true,
-        'timeout': 1000,
-        'animation': {
-            'open': 'animated ' + easeIn,
-            'close': 'animated ' + easeOut, // Animate.css class names
-            'easing': 'swing', // unavailable - no need
-            'speed': 200 // unavailable - no need
-        }
-    };
-
-    $.ceNotification('show', {
-        type: 'W',
-        title: "Warning",
-        message: "Work so hard, reminiscin' bout the old days",
-        message_state: 'I'
-    }, null, params);
-
-
-}
 (function(_, $) {
 
     /*
@@ -181,19 +152,27 @@ function fn_awesome_notifications_preview(clickedElement)
                     var n_class = 'alert';
                     var b_class = '';
                     var type = 'notification';
+                    var icon = '';
 
                     if (data.type == 'N') {
                         n_class += ' alert-success';
                         type = 'success';
+                        icon = 'hs-an-icon-ok';
+                        icon = 'hs-an-icon-ok-circled';
                     } else if (data.type == 'W') {
                         n_class += ' alert-warning';
                         type = 'warning';
+                        icon = 'hs-an-icon-attention-alt';
+                        icon = 'hs-an-icon-attention-circled';
                     } else if (data.type == 'S') {
                         n_class += ' alert-info';
                         type = 'information';
+                        icon = 'hs-an-icon-info';
+                        icon = 'hs-an-icon-info-circled';
                     } else {
                         n_class += ' alert-error';
                         type = 'error';
+                        icon = 'hs-an-icon-error';
                     }
 
 
@@ -204,23 +183,23 @@ function fn_awesome_notifications_preview(clickedElement)
                     } else if (data.message_state == 'S') {
                         b_class += ' cm-notification-close-ajax';
                     }
-
-
-
-
-
-                    console.log('params', params);
-                    console.log('globalParams', globalParams);
-
-                    params = $.extend({
+                    var defaultParams = {
                         'text': data.message,
                         'type': type,
                         'progressBar': true,
                         'theme': 'metroui',
                         'timeout': timeout,
                         'force': true,
-                    }, globalParams, params);
+                        'template': '' +
+                            '<div class="noty_message">' +
+                                '<i class="' + icon + '"></i>' +
+                                '<span class="noty_text"></span>' +
+                                '<div class="noty_close"></div>' +
+                            '</div>'
 
+                    };
+
+                    params = $.extend(defaultParams, globalParams, params);
 
                     var notificationObject = container.noty(params);
 

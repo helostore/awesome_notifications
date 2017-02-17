@@ -1,0 +1,48 @@
+
+ [class^="hs-an-icon-"]:before, [class*=" hs-an-icon-"]:before {
+  font-family: "awesomenotifications";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.hs-an-icon-error:before { content: '\e800'; } /* '' */
+.hs-an-icon-error-alt:before { content: '\e801'; } /* '' */
+.hs-an-icon-attention-circled:before { content: '\e802'; } /* '' */
+.hs-an-icon-attention:before { content: '\e803'; } /* '' */
+.hs-an-icon-info-circled:before { content: '\e804'; } /* '' */
+.hs-an-icon-bell:before { content: '\e805'; } /* '' */
+.hs-an-icon-ok:before { content: '\e806'; } /* '' */
+.hs-an-icon-ok-circled:before { content: '\e807'; } /* '' */
+.hs-an-icon-ok-circled2:before { content: '\e808'; } /* '' */
+.hs-an-icon-bell-alt:before { content: '\f0f3'; } /* '' */
+.hs-an-icon-info:before { content: '\f129'; } /* '' */
+.hs-an-icon-attention-alt:before { content: '\f12a'; } /* '' */
