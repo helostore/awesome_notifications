@@ -283,7 +283,6 @@
             }
         };
 
-
         $.ceNotification = function(method) {
             if (methods[method]) {
                 return methods[method].apply(this, Array.prototype.slice.call(arguments, 1));
@@ -294,9 +293,8 @@
 
     }($));
 
-
-
-    $(document).ready(function(){
+    $.ceEvent('on', 'ce.commoninit', function(context) {
+        $.ceNotification('init');
 
         if (typeof(awesomeNotifications) != 'undefined') {
             $.ceNotification('showMany', awesomeNotifications);
