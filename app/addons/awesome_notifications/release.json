@@ -1,5 +1,16 @@
 [
     {
+        "version": "0.0.3",
+        "releaseDate": "2017-06-24 08:56:14",
+        "releaseTimestamp": "1498294574",
+        "hash": "bb198cd91ff8aee6d78ab78206254bd0b4584a4d",
+        "commits": [
+            "[2017-06-24] Bumped version to 0.0.3",
+            "[2017-06-24]\tFix JS initialization error",
+            "[2017-02-17]\tAdded add-on settings and notifications previewer"
+        ]
+    },
+    {
         "version": "0.0.2",
         "releaseDate": "2017-02-17 06:33:30",
         "releaseTimestamp": "1487313210",
