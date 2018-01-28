@@ -117,8 +117,6 @@
                 }
 
 
-                console.log('showing notification', data, key, params);
-                console.trace();
                 data.message = _processTranslation(data.message);
                 data.title = _processTranslation(data.title);
 
@@ -234,8 +232,6 @@
 
             showMany: function(data)
             {
-                console.log('showMany', data);
-
                 for (var key in data) {
                     methods.show(data[key], key);
                 }
