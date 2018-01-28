@@ -61,7 +61,7 @@
                 }
             }
 
-            if($(".ui-dialog").is(':visible') == false) {
+            if($(".ui-dialog").is(':visible') === false) {
                 $('html').removeClass('dialog-is-open');
             }
 
@@ -69,7 +69,7 @@
 
         function _processTranslation(text)
         {
-            if (_.live_editor_mode && text.indexOf('[lang') != -1) {
+            if (_.live_editor_mode && text.indexOf('[lang') !== -1) {
                 text = '<var class="live-edit-wrap"><i class="cm-icon-live-edit icon-live-edit ty-icon-live-edit"></i><var class="cm-live-edit live-edit-item" data-ca-live-edit="langvar::' + text.substring(text.indexOf('=') + 1, text.indexOf(']')) + '">' + text.substring(text.indexOf(']') + 1, text.lastIndexOf('[')) + '</var></var>';
             }
 
@@ -108,7 +108,7 @@
                     key = $.crc32(data.message);
                 }
 
-                if (typeof(data.message) == 'undefined') {
+                if (typeof(data.message) === 'undefined') {
                     return false;
                 }
 
@@ -116,11 +116,14 @@
                     return true;
                 }
 
+
+                console.log('showing notification', data, key, params);
+                console.trace();
                 data.message = _processTranslation(data.message);
                 data.title = _processTranslation(data.title);
 
                 // Popup message in the screen center - should be only one at time
-                if (data.type == 'I') {
+                if (data.type === 'I') {
                     var w = $.getWindowSizes();
 
                     $('.cm-notification-content.cm-notification-content-extended').each(function() {
@@ -154,17 +157,17 @@
                     var type = 'notification';
                     var icon = '';
 
-                    if (data.type == 'N') {
+                    if (data.type === 'N') {
                         n_class += ' alert-success';
                         type = 'success';
                         // icon = 'hs-an-icon-ok';
                         icon = 'hs-an-icon-ok-circled';
-                    } else if (data.type == 'W') {
+                    } else if (data.type === 'W') {
                         n_class += ' alert-warning';
                         type = 'warning';
                         // icon = 'hs-an-icon-attention-alt';
                         icon = 'hs-an-icon-attention-circled';
-                    } else if (data.type == 'S') {
+                    } else if (data.type === 'S') {
                         n_class += ' alert-info';
                         type = 'information';
                         // icon = 'hs-an-icon-info';
@@ -177,10 +180,10 @@
 
 
                     var timeout = params.timeout || false;
-                    if (data.message_state == 'I') {
+                    if (data.message_state === 'I') {
                         n_class += ' cm-auto-hide';
                         timeout = delay;
-                    } else if (data.message_state == 'S') {
+                    } else if (data.message_state === 'S') {
                         b_class += ' cm-notification-close-ajax';
                     }
                     var defaultParams = {
@@ -224,13 +227,15 @@
 
                 // $.ceEvent('trigger', 'ce.notificationshow', [notification]);
 
-                if (data.message_state == 'I') {
+                if (data.message_state === 'I') {
                     // methods.close(notification, true);
                 }
             },
 
             showMany: function(data)
             {
+                console.log('showMany', data);
+
                 for (var key in data) {
                     methods.show(data[key], key);
                 }
@@ -248,7 +253,7 @@
 
             close: function(notification, delayed)
             {
-                if (delayed == true) {
+                if (delayed === true) {
                     if (delay === 0) { // do not auto-close
                         return true;
                     }
@@ -294,10 +299,11 @@
     }($));
 
     $.ceEvent('on', 'ce.commoninit', function(context) {
-        $.ceNotification('init');
-
-        if (typeof(awesomeNotifications) != 'undefined') {
-            $.ceNotification('showMany', awesomeNotifications);
+        if (context && context.length === 1 && context.get(0) === _.doc) {
+            $.ceNotification('init');
+            if (typeof(awesomeNotifications) !== 'undefined') {
+                $.ceNotification('showMany', awesomeNotifications);
+            }
         }
     });
 
