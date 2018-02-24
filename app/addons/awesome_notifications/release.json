@@ -1,5 +1,14 @@
 [
     {
+        "version": "0.0.6",
+        "releaseDate": "2018-01-28 02:02:46",
+        "releaseTimestamp": "1517148166",
+        "hash": "88b03fe73c3ff15c2c185eeb00f723ffc8856eaf",
+        "commits": [
+            "[2018-02-24] Bumped version to 0.0.6"
+        ]
+    },
+    {
         "version": "0.0.5",
         "releaseDate": "2018-01-28 02:00:27",
         "releaseTimestamp": "1517148027",
@@ -26,18 +35,6 @@
             "[2017-06-24] Bumped version to 0.0.3",
             "[2017-06-24]\tFix JS initialization error",
             "[2017-02-17]\tAdded add-on settings and notifications previewer"
-        ]
-    },
-    {
-        "version": "0.0.2",
-        "releaseDate": "2017-02-17 06:33:30",
-        "releaseTimestamp": "1487313210",
-        "hash": "857242794e54c264d295c01f63ad101f26885f28",
-        "commits": [
-            "[2017-02-17] Bumped version to 0.0.2",
-            "[2017-02-17] Added add-on settings and notifications previewer",
-            "[2017-02-17] Added add-on settings and notifications previewer",
-            "[2017-02-16] Added effects as add-on settings"
         ]
     }
 ]

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <addon scheme="3.0">
     <id>awesome_notifications</id>
-    <version>0.0.5</version>
+    <version>0.0.6</version>
     <name>Awesome Notifications</name>
     <description>Replace CS-Cart's default dull notifications with these awesome notifications</description>
     <priority>1010112</priority>
