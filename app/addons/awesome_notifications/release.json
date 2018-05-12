@@ -1,5 +1,15 @@
 [
     {
+        "version": "0.0.12",
+        "releaseDate": "2018-05-12 04:05:03",
+        "releaseTimestamp": "1526141103",
+        "hash": "0fe72a9d5752f3996548c16f304fc900a9055746",
+        "commits": [
+            "[2018-05-12] Bumped version to 0.0.12",
+            "[2018-05-12]\tAdd color schema option in add-on settings"
+        ]
+    },
+    {
         "version": "0.0.11",
         "releaseDate": "2018-05-12 03:45:18",
         "releaseTimestamp": "1526139918",
@@ -24,15 +34,6 @@
         "hash": "07d131edb5387ceb013eb7ec0f4adff7f8b6cfa6",
         "commits": [
             "[2018-05-12] Bumped version to 0.0.9"
-        ]
-    },
-    {
-        "version": "0.0.8",
-        "releaseDate": "2018-05-12 09:23:35",
-        "releaseTimestamp": "1526117015",
-        "hash": "efbd8cb30c9c884f3a29563bb6c7a095986a7ebd",
-        "commits": [
-            "[2018-05-12] Bumped version to 0.0.8"
         ]
     }
 ]
