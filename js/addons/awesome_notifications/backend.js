@@ -54,7 +54,8 @@ function AwesomeNotificationsPreviewer () {
         var $form = $clickedElement.closest('form');
         var easeIn = $form.find(':input[id*="ease_in"]').val();
         var easeOut = $form.find(':input[id*="ease_out"]').val();
-
+        var theme = $form.find(':input[id*="_theme"]').val();
+        console.log(theme);
         var params = {
             'dismissQueue': true,
             // 'maxVisible': 1,
@@ -67,6 +68,7 @@ function AwesomeNotificationsPreviewer () {
                 'easing': 'swing', // unavailable - no need
                 'speed': 200 // unavailable - no need
             },
+            theme: theme,
             'previewer': self,
             'callback': {
                 'beforeShow': function () {
@@ -94,13 +96,13 @@ function AwesomeNotificationsPreviewer () {
 
         var title = '';
         var message = "Work so hard, reminiscin' bout the old days";
-        if (type == 'N') {
+        if (type === 'N') {
             title = "Success";
             message = "Congratulations for getting rid of those ugly fugly default notifications!";
-        } else if (type == 'W') {
+        } else if (type === 'W') {
             title = "Warning";
             message = "Choose your effects smartly - you don't want to steal too much focus of your customers.";
-        } else if (type == 'S') {
+        } else if (type === 'S') {
             title = "Info";
             message = "Go ahead in choose your entrance/exit effects for your new awesome notifications.";
         } else {

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <addon scheme="3.0">
     <id>awesome_notifications</id>
-    <version>0.0.7</version>
+    <version>0.0.8</version>
     <name>Awesome Notifications</name>
     <description>Replace CS-Cart's default dull notifications with these awesome notifications</description>
     <priority>1010112</priority>
@@ -138,6 +138,19 @@
 
                         </variants>
                     </item>
+
+                    <item id="theme">
+                        <type>selectbox</type>
+                        <default_value>metroui</default_value>
+                        <variants>
+                            <item id="bootstrapTheme">Default (CS-Cart, Bootstrap)</item>
+                            <item id="metroui">Metro UI</item>
+                            <item id="materialui">Material UI</item>
+                            <item id="relax">Relax</item>
+                            <item id="semanticUI">Semantic UI</item>
+                        </variants>
+                    </item>
+
                     <item id="preview">
                         <type>info</type>
                         <handler>fn_awesome_notifications_settings_preview</handler>

@@ -12,6 +12,18 @@ msgctxt "Addons::description::awesome_notifications"
 msgid "Replace CS-Cart's default dull notifications with these awesome notifications"
 msgstr "Replace CS-Cart's default dull notifications with these awesome notifications"
 
+msgctxt "SettingsOptions::awesome_notifications::email"
+msgid "HELOstore email"
+msgstr "HELOstore email"
+
+msgctxt "SettingsOptions::awesome_notifications::password"
+msgid "HELOstore password"
+msgstr "HELOstore password"
+
+msgctxt "SettingsOptions::awesome_notifications::license"
+msgid "License key"
+msgstr "License key"
+
 msgctxt "SettingsSections::awesome_notifications::settings"
 msgid ""
 msgstr "Settings"
@@ -653,3 +665,16 @@ msgctxt "SettingsVariants::awesome_notifications::ease_out::rollOut"
 msgid ""
 msgstr "Specials : rollOut"
 
+
+
+msgctxt "SettingsOptions::awesome_notifications::theme"
+msgid ""
+msgstr "Colors theme"
+
+msgctxt "SettingsVariants::awesome_notifications::theme::metroui"
+msgid ""
+msgstr "Metro UI"
+
+msgctxt "SettingsVariants::awesome_notifications::theme::materialui"
+msgid ""
+msgstr "Material UI"

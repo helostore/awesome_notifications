@@ -9,6 +9,6 @@
   "author": "HELOstore.com",
   "license": "ISC",
   "dependencies": {
-    "noty": "^2.4.1"
+    "noty": "^2"
   }
 }

@@ -207,6 +207,7 @@
                     };
 
                     params = $.extend(defaultParams, globalParams, params);
+                    console.log('xxx', params);
 
                     var notificationObject = container.noty(params);
 
