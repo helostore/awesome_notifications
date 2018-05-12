@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <addon scheme="3.0">
     <id>awesome_notifications</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <name>Awesome Notifications</name>
     <priority>1010112</priority>
     <position>0</position>
