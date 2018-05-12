@@ -1,5 +1,14 @@
 [
     {
+        "version": "0.0.11",
+        "releaseDate": "2018-05-12 03:45:18",
+        "releaseTimestamp": "1526139918",
+        "hash": "9ab748ef7e68aafc6a1ac0e3c15841f4b1305ba2",
+        "commits": [
+            "[2018-05-12] Bumped version to 0.0.11"
+        ]
+    },
+    {
         "version": "0.0.10",
         "releaseDate": "2018-05-12 03:26:01",
         "releaseTimestamp": "1526138761",
@@ -24,16 +33,6 @@
         "hash": "efbd8cb30c9c884f3a29563bb6c7a095986a7ebd",
         "commits": [
             "[2018-05-12] Bumped version to 0.0.8"
-        ]
-    },
-    {
-        "version": "0.0.7",
-        "releaseDate": "2018-05-12 09:23:32",
-        "releaseTimestamp": "1526117012",
-        "hash": "97a4cefb9ed083983077cc50a2b9b467d5c333b2",
-        "commits": [
-            "[2018-05-12] Bumped version to 0.0.7",
-            "[2018-05-12]\tMinor bugfix in composer.json"
         ]
     }
 ]
