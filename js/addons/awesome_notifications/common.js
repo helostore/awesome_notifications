@@ -179,8 +179,8 @@
 
                     var timeout = params.timeout || false;
                     if (data.message_state === 'I') {
-                        n_class += ' cm-auto-hide';
-                        timeout = delay;
+                        // n_class += ' cm-auto-hide';
+                        // timeout = delay;
                     } else if (data.message_state === 'S') {
                         b_class += ' cm-notification-close-ajax';
                     }
