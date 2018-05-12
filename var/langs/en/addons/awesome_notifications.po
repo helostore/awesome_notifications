@@ -9,8 +9,8 @@ msgid "Awesome Notifications"
 msgstr "Awesome Notifications"
 
 msgctxt "Addons::description::awesome_notifications"
-msgid "Replace CS-Cart's default dull notifications with these awesome notifications"
-msgstr "Replace CS-Cart's default dull notifications with these awesome notifications"
+msgid ""
+msgstr "Awesome notifications to replace the default and dull notifications of CS-Cart!"
 
 msgctxt "SettingsOptions::awesome_notifications::email"
 msgid "HELOstore email"
