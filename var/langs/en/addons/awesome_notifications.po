@@ -16,7 +16,6 @@ msgctxt "Languages::my_sidekick_is_not_present"
 msgid "This add-on has a single requirement: Sidekick add-on. Please install and activate Sidekick first."
 msgstr "This add-on has a single requirement: Sidekick add-on. Please install and activate Sidekick first."
 
-
 msgctxt "SettingsOptions::awesome_notifications::email"
 msgid "HELOstore email"
 msgstr "HELOstore email"
