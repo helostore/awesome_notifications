@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <addon scheme="3.0">
     <id>awesome_notifications</id>
-    <version>0.0.8</version>
+    <version>0.0.9</version>
     <name>Awesome Notifications</name>
     <description>Replace CS-Cart's default dull notifications with these awesome notifications</description>
     <priority>1010112</priority>
@@ -143,12 +143,52 @@
                         <type>selectbox</type>
                         <default_value>metroui</default_value>
                         <variants>
-                            <item id="bootstrapTheme">Default (CS-Cart, Bootstrap)</item>
                             <item id="metroui">Metro UI</item>
                             <item id="materialui">Material UI</item>
-                            <item id="relax">Relax</item>
-                            <item id="semanticUI">Semantic UI</item>
+                            <item id="mint"/>
+                            <item id="sunset"/>
+                            <item id="custom"/>
                         </variants>
+                    </item>
+
+                    <item id="header_custom">
+                        <type>header</type>
+                    </item>
+
+                    <item id="info_background_color">
+                        <type>input</type>
+                        <default_value>#2196f3</default_value>
+                    </item>
+                    <item id="info_text_color">
+                        <type>input</type>
+                        <default_value>#ffffff</default_value>
+                    </item>
+
+                    <item id="success_background_color">
+                        <type>input</type>
+                        <default_value>#4caf50</default_value>
+                    </item>
+                    <item id="success_text_color">
+                        <type>input</type>
+                        <default_value>#ffffff</default_value>
+                    </item>
+
+                    <item id="warning_background_color">
+                        <type>input</type>
+                        <default_value>#ff9800</default_value>
+                    </item>
+                    <item id="warning_text_color">
+                        <type>input</type>
+                        <default_value>#ffffff</default_value>
+                    </item>
+
+                    <item id="error_background_color">
+                        <type>input</type>
+                        <default_value>#f44336</default_value>
+                    </item>
+                    <item id="error_text_color">
+                        <type>input</type>
+                        <default_value>#ffffff</default_value>
                     </item>
 
                     <item id="preview">

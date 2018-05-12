@@ -1,5 +1,5 @@
-$.noty.themes.materialui = {
-    name: 'materialui',
+$.noty.themes.mint = {
+    name: 'mint',
     helpers: {},
     modal: {
         css: {
@@ -121,24 +121,24 @@ $.noty.themes.materialui = {
         switch (this.options.type) {
             case 'alert':
             case 'notification':
-                this.$bar.css({backgroundColor: '#fff', border: 'none', color: '#1d1d1d'});
+                this.$bar.css({backgroundColor: '#fff', border: 'none', color: '#2F2F2F'});
                 break;
             case 'warning':
-                this.$bar.css({backgroundColor: '#ff9800', border: 'none', color: '#fff'});
-                this.$buttons.css({borderTop: '1px solid #ff9800'});
+                this.$bar.css({backgroundColor: '#FFAE42', border: 'none', color: '#fff'});
+                this.$buttons.css({borderTop: '1px solid #E89F3C'});
                 break;
             case 'error':
-                this.$bar.css({backgroundColor: '#f44336', border: 'none', color: '#fff'});
+                this.$bar.css({backgroundColor: '#DE636F', border: 'none', color: '#fff'});
                 this.$message.css({fontWeight: 'normal'});
-                this.$buttons.css({borderTop: '1px solid #f44336'});
+                this.$buttons.css({borderTop: '1px solid #CA5A65'});
                 break;
             case 'information':
-                this.$bar.css({backgroundColor: '#2196f3', border: 'none', color: '#fff'});
-                this.$buttons.css({borderTop: '1px solid #2196f3'});
+                this.$bar.css({backgroundColor: '#7F7EFF', border: 'none', color: '#fff'});
+                this.$buttons.css({borderTop: '1px solid #7473E8'});
                 break;
             case 'success':
-                this.$bar.css({backgroundColor: '#4caf50', border: 'none', color: '#fff'});
-                this.$buttons.css({borderTop: '1px solid #50C24E'});
+                this.$bar.css({backgroundColor: '#AFC765', border: 'none', color: '#fff'});
+                this.$buttons.css({borderTop: '1px solid #A0B55C'});
                 break;
             default:
                 this.$bar.css({backgroundColor: '#fff', border: 'none', color: '#1d1d1d'});

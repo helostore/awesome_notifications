@@ -1,5 +1,5 @@
-$.noty.themes.materialui = {
-    name: 'materialui',
+$.noty.themes.custom = {
+    name: 'custom',
     helpers: {},
     modal: {
         css: {
@@ -121,23 +121,23 @@ $.noty.themes.materialui = {
         switch (this.options.type) {
             case 'alert':
             case 'notification':
-                this.$bar.css({backgroundColor: '#fff', border: 'none', color: '#1d1d1d'});
+                this.$bar.css({backgroundColor: this.options.customTheme.info.backgroundColor, border: 'none', color: this.options.customTheme.info.textColor});
                 break;
             case 'warning':
-                this.$bar.css({backgroundColor: '#ff9800', border: 'none', color: '#fff'});
+                this.$bar.css({backgroundColor: this.options.customTheme.warning.backgroundColor, border: 'none', color: this.options.customTheme.warning.textColor});
                 this.$buttons.css({borderTop: '1px solid #ff9800'});
                 break;
             case 'error':
-                this.$bar.css({backgroundColor: '#f44336', border: 'none', color: '#fff'});
-                this.$message.css({fontWeight: 'normal'});
+                this.$bar.css({backgroundColor: this.options.customTheme.error.backgroundColor, border: 'none', color: this.options.customTheme.error.textColor});
+                // this.$message.css({fontWeight: 'normal', color: errorTextColor});
                 this.$buttons.css({borderTop: '1px solid #f44336'});
                 break;
             case 'information':
-                this.$bar.css({backgroundColor: '#2196f3', border: 'none', color: '#fff'});
+                this.$bar.css({backgroundColor: this.options.customTheme.info.backgroundColor, border: 'none', color: this.options.customTheme.info.textColor});
                 this.$buttons.css({borderTop: '1px solid #2196f3'});
                 break;
             case 'success':
-                this.$bar.css({backgroundColor: '#4caf50', border: 'none', color: '#fff'});
+                this.$bar.css({backgroundColor: this.options.customTheme.success.backgroundColor, border: 'none', color: this.options.customTheme.success.textColor});
                 this.$buttons.css({borderTop: '1px solid #50C24E'});
                 break;
             default:

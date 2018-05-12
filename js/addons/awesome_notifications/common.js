@@ -188,7 +188,7 @@
                         'text': data.message,
                         'type': type,
                         'progressBar': true,
-                        'theme': 'metroui',
+                        'theme': AN_THEME,
                         'timeout': timeout,
                         // 'timeout': false,
                         'force': true,
@@ -203,11 +203,30 @@
                                 '<div class="noty_close"></div>' +
                             '</div>' +
                         '</div>'
-
                     };
 
                     params = $.extend(defaultParams, globalParams, params);
-                    console.log('xxx', params);
+
+                    if (typeof(AN_ERROR_BACKGROUND_COLOR) !== 'undefined' && typeof(params.customTheme) === 'undefined') {
+                        params.customTheme = {
+                            'error': {
+                                'backgroundColor': AN_ERROR_BACKGROUND_COLOR,
+                                'textColor': AN_ERROR_TEXT_COLOR
+                            },
+                            'success': {
+                                'backgroundColor': AN_SUCCESS_BACKGROUND_COLOR,
+                                'textColor': AN_SUCCESS_TEXT_COLOR
+                            },
+                            'info': {
+                                'backgroundColor': AN_INFO_BACKGROUND_COLOR,
+                                'textColor': AN_INFO_TEXT_COLOR
+                            },
+                            'warning': {
+                                'backgroundColor': AN_WARNING_BACKGROUND_COLOR,
+                                'textColor': AN_WARNING_TEXT_COLOR
+                            }
+                        };
+                    }
 
                     var notificationObject = container.noty(params);
 

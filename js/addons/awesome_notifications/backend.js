@@ -55,7 +55,7 @@ function AwesomeNotificationsPreviewer () {
         var easeIn = $form.find(':input[id*="ease_in"]').val();
         var easeOut = $form.find(':input[id*="ease_out"]').val();
         var theme = $form.find(':input[id*="_theme"]').val();
-        console.log(theme);
+
         var params = {
             'dismissQueue': true,
             // 'maxVisible': 1,
@@ -67,6 +67,24 @@ function AwesomeNotificationsPreviewer () {
                 'close': 'animated ' + easeOut, // Animate.css class names
                 'easing': 'swing', // unavailable - no need
                 'speed': 200 // unavailable - no need
+            },
+            'customTheme': {
+                'info': {
+                    'backgroundColor': $form.find(':input[id="addon_option_awesome_notifications_info_background_color"]').val(),
+                    'textColor': $form.find(':input[id="addon_option_awesome_notifications_info_text_color"]').val()
+                },
+                'warning': {
+                    'backgroundColor': $form.find(':input[id="addon_option_awesome_notifications_warning_background_color"]').val(),
+                    'textColor': $form.find(':input[id="addon_option_awesome_notifications_warning_text_color"]').val()
+                },
+                'success': {
+                    'backgroundColor': $form.find(':input[id="addon_option_awesome_notifications_success_background_color"]').val(),
+                    'textColor': $form.find(':input[id="addon_option_awesome_notifications_success_text_color"]').val()
+                },
+                'error': {
+                    'backgroundColor': $form.find(':input[id="addon_option_awesome_notifications_error_background_color"]').val(),
+                    'textColor': $form.find(':input[id="addon_option_awesome_notifications_error_text_color"]').val()
+                }
             },
             theme: theme,
             'previewer': self,
@@ -131,7 +149,12 @@ function fn_awesome_notifications_preview_all(clickedElement) {
 
 (function(_, $) {
     $(document).ready(function(){
-        // (some of) your code goes here
+        var $settings = $('#content_awesome_notifications_settings');
+        if ($settings) {
+            // $('#collapsable_addon_option_awesome_notifications_header_custom').css('overflow', 'visible');
+            // Grab custom colors elements and transform them into pickers
+            $settings.find('input[id*="color"]').data('caView', 'palette').addClass('cm-colorpicker');
+        }
     });
 
 }(Tygh, Tygh.$));
