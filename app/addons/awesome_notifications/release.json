@@ -1,5 +1,15 @@
 [
     {
+        "version": "0.0.7",
+        "releaseDate": "2018-05-12 09:23:32",
+        "releaseTimestamp": "1526117012",
+        "hash": "97a4cefb9ed083983077cc50a2b9b467d5c333b2",
+        "commits": [
+            "[2018-05-12] Bumped version to 0.0.7",
+            "[2018-05-12]\tMinor bugfix in composer.json"
+        ]
+    },
+    {
         "version": "0.0.6",
         "releaseDate": "2018-01-28 02:02:46",
         "releaseTimestamp": "1517148166",
@@ -24,17 +34,6 @@
         "hash": "d77728e6b656a781762758e5b22f5392d48e5427",
         "commits": [
             "[2018-01-28] Bumped version to 0.0.4"
-        ]
-    },
-    {
-        "version": "0.0.3",
-        "releaseDate": "2017-06-24 08:56:14",
-        "releaseTimestamp": "1498294574",
-        "hash": "bb198cd91ff8aee6d78ab78206254bd0b4584a4d",
-        "commits": [
-            "[2017-06-24] Bumped version to 0.0.3",
-            "[2017-06-24]\tFix JS initialization error",
-            "[2017-02-17]\tAdded add-on settings and notifications previewer"
         ]
     }
 ]
