@@ -188,7 +188,7 @@
                         'text': data.message,
                         'type': type,
                         'progressBar': true,
-                        'theme': AN_THEME,
+                        'theme': typeof(AN_THEME) !== 'undefined' ? AN_THEME : 'metroui',
                         'timeout': timeout,
                         // 'timeout': false,
                         'force': true,

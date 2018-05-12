@@ -692,9 +692,9 @@ msgid ""
 msgstr "Custom"
 
 
-msgctxt "SettingsOptions::awesome_notifications::header_custom"
+msgctxt "SettingsOptions::awesome_notifications::appearance"
 msgid ""
-msgstr "Custom colors"
+msgstr "Appearance"
 
 msgctxt "SettingsOptions::awesome_notifications::info_background_color"
 msgid ""
@@ -730,6 +730,11 @@ msgstr "Error - background color"
 msgctxt "SettingsOptions::awesome_notifications::error_text_color"
 msgid ""
 msgstr "Error - text color"
+
+msgctxt "SettingsOptions::awesome_notifications::animations"
+msgid ""
+msgstr "Animations"
+
 
 
 

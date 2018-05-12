@@ -140,6 +140,10 @@ function AwesomeNotificationsPreviewer () {
 var awesomeNotificationsPreviewer = null;
 
 function fn_awesome_notifications_preview_all(clickedElement) {
+    if (typeof($.noty) === 'undefined') {
+        alert('Please enable the Awesome Notications in the administration area first.');
+        return false;
+    }
     awesomeNotificationsPreviewer = awesomeNotificationsPreviewer || new AwesomeNotificationsPreviewer();
     awesomeNotificationsPreviewer.previewAll(clickedElement);
 
@@ -151,7 +155,7 @@ function fn_awesome_notifications_preview_all(clickedElement) {
     $(document).ready(function(){
         var $settings = $('#content_awesome_notifications_settings');
         if ($settings) {
-            // $('#collapsable_addon_option_awesome_notifications_header_custom').css('overflow', 'visible');
+            $('#collapsable_addon_option_awesome_notifications_appearance').css('overflow', 'visible');
             // Grab custom colors elements and transform them into pickers
             $settings.find('input[id*="color"]').data('caView', 'palette').addClass('cm-colorpicker');
         }
